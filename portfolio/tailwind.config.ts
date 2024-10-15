@@ -11,8 +11,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        dark: "#b1b1b",
+        light: "#f5f5f5",
+        primary: "#B63E96",
+        primaryDark: "#58E6D9",
       },
       fontFamily: {
         sans: ["Inter", ...fontFamily.sans],
